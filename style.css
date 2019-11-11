@@ -1,0 +1,294 @@
+*{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    color: black;
+    
+}
+
+.container{
+  width: 97%;
+  float: left;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+
+}
+.menu1{
+    background-image: url(images/bg-ternak.png);
+    text-align: center;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu2{
+    text-align: left;
+    float:left;
+    background-color: #acbd33;
+    width: 100%;
+    height: 400px;
+}
+.row-centered{
+  text-align: center;
+}
+
+#m2{
+  text-align: left;
+  float: left;
+  width: 50%;
+  background-color: #acbd33;
+}
+#m2b{
+  text-align: left;
+  float: right;
+  width: 50%;
+  height: 71.7%;
+  background-color: #acbd33;
+}
+.menu3{
+    text-align: left;
+    float: left;
+    background-color: #acbd33;;
+    width: 100%;
+    height: 400px;
+}
+
+#m3b{
+  text-align: right;
+  float: right;
+  width: 100%;
+  height: 400px;
+}
+
+.menu4{
+    text-align: left;
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(109, 45, 0, 0.842);
+}
+
+meter:hover{
+  display: value;
+}
+
+#m5{
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(168, 71, 2, 0.781);
+}
+
+#m6{
+  text-align: center;
+  width: 100%;
+  background-color: chocolate;
+}
+
+nav{
+    position: relative;
+    top:0;
+    margin:auto;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff000000 ;
+}
+
+nav ul{
+    background: #99cccc;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    
+}
+nav ul li{
+    float:left;    
+}
+.nav-kanan{
+  float: right;
+}
+
+
+nav ul li:hover{
+    background:yellow;
+}
+
+nav ul li:hover a{
+    color:#000;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ol {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clear{
+ clear: both;
+ background-color: #acbd33; 
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  .scroll-down {
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+  }
+  
+  .scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #FFF;
+    background-size: 14px auto;
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    transform: scale(1)
+  }
+  
+  .scroll-down:before {
+      position: absolute;
+      top: calc(50% - 8px);
+      left: calc(50% - 6px);
+      transform: rotate(-45deg);
+      display: block;
+      width: 12px;
+      height: 12px;
+      content: "";
+      border: 2px solid white;
+      border-width: 0px 0 2px 2px;
+  }
+  
+/******************* Tim *********************/
+.section-tim {
+  padding: 60px 0px;
+  background-color: #99cccc;
+}
+.team-member .team-thumbnail {
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.team-member .info h4 {
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.img-team{
+  width: 250px;
+  margin: 0 auto;
+}
+div.container{
+  max-width: 100%;
+  width: 100%;
+  background-color: #acbd33;
+  -webkit-filter:brightness(90%); 
+}
+/*Cara Kerja Alat*/
+.section-tentang {
+  padding: 60px 0px;
+  background-color: #fff;
+}
+.about-single .gambar {
+  height: 120px;
+  margin: 0 auto;
+  width: 180px;
+  padding: 0px 0px 10px;
+}
+.about-single h4 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.about-single p {
+  font-family: sans-serif;
+  margin: 0px 0px 10px;
+  line-height: 26px;
+}
+
+
+  @keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    60% {
+      -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+
+    
+
+     
+  }
